@@ -29,7 +29,7 @@ print(f"Carbs: {carbs}")
 print(f"Fat: {fat}")
 print(f"Protein: {protein}")
 
-# Same as above but with goals Goals
+# Same as above but with goals table
 goal_table = soup.find("tr", {"class": "total alt"})
 goal_data = goal_table.find_all("td")
 
